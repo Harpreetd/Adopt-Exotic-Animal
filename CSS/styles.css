@@ -26,7 +26,31 @@ li {
   margin: 0 30px;
 }
 main {
-  height: 70vh;
+  height: 80vh;
   width: 100%;
-  background-color: black;
+  background-image: url(/assets/background.jpg);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+}
+.search-here {
+  width: 50%;
+  position: relative;
+  top: 250px;
+  left: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+}
+#search-bar {
+  width: 70%;
+  padding: 30px;
+  border: none;
+  font-size: 20px;
+}
+#search-btn {
+  padding: 16px;
+  font-size: 30px;
+  border: none;
+  background-color: white;
 }
